@@ -28,3 +28,11 @@ For the input example in the Input session, the expected output is this:<br>
 ![](https://github.com/pisn/Pentaminos/blob/master/images/output.png)
 
 
+## How the algorithm works
+
+A backtracking algorithm basically works using a stack to save the last decision made. If a dead end is reached, the last decision is reverted, and another decision takes its place. This procedes until all possible decision paths have been made.
+
+In this specific algorithm, decisions are reverted based on the search for a available hole to put the pieces. I no hole with at least five spaces is found, last decision is reverted. The pieces can also be rotated and reflected to fit somewhere. 
+
+Decisions also must be made in an specific order to ensure no repeated tests are made. 
+
