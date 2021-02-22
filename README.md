@@ -35,5 +35,5 @@ A backtracking algorithm basically works using a stack to save the last decision
 
 In this specific algorithm, decisions are reverted based on the search for a available hole to put the pieces. If no hole with at least five spaces is found, last decision is reverted. The pieces can also be rotated and reflected to fit somewhere. 
 
-Decisions also must be made in an specific order to ensure no repeated tests are made. 
+Decisions also must be made in an specific order to ensure no repeated tests are made.  
 
