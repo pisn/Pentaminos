@@ -3,7 +3,7 @@ This is my personal implementation of Pentamino's board game.
 
 Given a rectangular board format, the program needs to find out if there is a way to cover all spaces with pieces formed by 5 squares. For this implementation purpose, the following pieces are accepted. Changing pieces layout, however, is just a matter of few adjustments in the code. 
 
-![Image containing 12 pieces in the format of capital letters. The letters are: F,I,L,N,P,T,U,V,W,X,Y,Z](https://github.com/pisn/Pentaminos/raw/master/images/PentaminosImage.png)
+![Image containing 12 pieces in the format of capital letters. The letters are: F,I,L,N,P,T,U,V,W,X,Y,Z](https://github.com/pisn/Pentaminos/raw/master/images/PentaminosImage2.png)
 *"Pentomino Naming Conventions" by R. A. Nonenmacher is licensed under CC BY-SA 4.0. https://en.wikipedia.org/wiki/Pentomino*
 
 This is a very naive backtracking algorithm, developed only for computer science algorithms study purpose. It could be more easily written in another language. Nevertheless, C language provides a better understanding of structures internal implementation.
